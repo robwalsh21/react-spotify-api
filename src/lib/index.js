@@ -31,6 +31,9 @@ import { Search, useSearch } from './Search';
 // Context
 import SpotifyApiContext from './context';
 
+// ApiRequest
+import ApiRequest from './ApiRequest';
+
 // Artist components
 export { Artist, ArtistAlbums, ArtistTracks, ArtistRelated };
 
@@ -64,3 +67,6 @@ export { useArtist, useTrack, useAlbum, useUser, useSearch };
 
 // Context
 export { SpotifyApiContext };
+
+// ApiRequest
+export { ApiRequest };
